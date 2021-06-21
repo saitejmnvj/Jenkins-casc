@@ -1,0 +1,7 @@
+---
+jenkins:
+  systemMessage: "Jenkins Powered By JCASC Automatiom"
+credentials: 
+unclassified:
+manageHooks: 
+   
