@@ -1,7 +1,7 @@
 ---
 jenkins:
   systemMessage: "Jenkins Powered By JCASC Automatiom"
-credentials: 
-unclassified:
-manageHooks: 
+unclassified: 
+  location:
+    url: "http://localhost:8080"
    
