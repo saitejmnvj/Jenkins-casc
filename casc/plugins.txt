@@ -1,2 +1,4 @@
-configuration-as-code
-active-directory
+configuration-as-code:latest
+active-directory:latest
+job-dsl-plugin:1.77
+mask-passwords-plugin:2.13
