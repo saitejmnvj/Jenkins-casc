@@ -7,6 +7,12 @@ ENV JENKINS_URL="https://jenkins_casc:8080"
 
 ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
 
+#Setting env variables needed for JCasC
+
+ENV JENKINS_USERNAME="random"
+
+ENV JENKINS_PASS="random"
+
 COPY casc var/jenkins_home/ref
 
 #Pointing Plugin to the folder to casc yaml folders
