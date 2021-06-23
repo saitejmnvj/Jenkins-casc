@@ -32,7 +32,7 @@ unclassified:
     buildWrapperEnable: true
     installations:
       - name: "sonar"
-        severUrl: "https://sample.sonar.com"
+        serverUrl: "https://sample.sonar.com"
         serverAuthenticationToken: "SONAR1"
 
    
