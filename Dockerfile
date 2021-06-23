@@ -3,7 +3,7 @@ FROM jenkins/jenkins:alpine
 #Setting Environment Variables 
 #Disabling default Setup Wizard
 
-ENV JENKINS_URL="https://localhost:8080"
+ENV JENKINS_URL="https://jenkins_casc:8080"
 
 ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
 

@@ -1,7 +1,38 @@
 ---
 jenkins:
-  systemMessage: "Jenkins Powered By JCASC Automatiom"
+  systemMessage: "Jenkins Powered By JCASC Automation"
+#To pass environment variables to jenkins maaster: globalNodeProperties  
+  globalNodeProperties:
+  - envVars: 
+    env:
+    - key: SONAR_HOST
+      value: "https://sample.sonar.com"
+    - key: KUBE_NODES
+      value: "three"
+#Passing sample variables for testing
+#Unclassified to define plugin configuration
+  securityRealm:
+    local:
+      allowsSignup: false
+      user:
+      - id: ${JENKINS_USERNAME}
+        password: ${JENKINS_PASS}
 unclassified: 
   location:
-    url: "http://localhost:8080"
+    url: ${JENKINS_URL}
+  globalLibraries:
+    libraries: 
+      - name: "library"
+        retriever:
+          modernSCM:
+            scm:
+              git:
+                remote: "https://github.com/jenkins-infra/pipeline-library.git"
+  sonarglobalconfiguration:
+    buildWrapperEnable: true
+    installations:
+      - name: "sonar"
+        severUrl: "https://sample.sonar.com"
+        serverAuthenticationToken: "SONAR1"
+                        
    
