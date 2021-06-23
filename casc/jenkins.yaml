@@ -2,13 +2,13 @@
 jenkins:
   systemMessage: "Jenkins Powered By JCASC Automation"
 #To pass environment variables to jenkins maaster: globalNodeProperties  
-  globalNodeProperties:
-  - envVars: 
-    env:
-    - key: SONAR_HOST
-      value: "https://sample.sonar.com"
-    - key: KUBE_NODES
-      value: "three"
+  # globalNodeProperties:
+  # - envVars: 
+  #   env:
+  #   - key: SONAR_HOST
+  #     value: "https://sample.sonar.com"
+  #   - key: KUBE_NODES
+  #     value: "three"
 #Passing sample variables for testing
 #Unclassified to define plugin configuration
   securityRealm:
@@ -34,5 +34,5 @@ unclassified:
       - name: "sonar"
         severUrl: "https://sample.sonar.com"
         serverAuthenticationToken: "SONAR1"
-                        
+
    
