@@ -1,4 +1,4 @@
 configuration-as-code:latest
 active-directory:latest
-job-dsl-plugin:latest
-mask-passwords-plugin:latest
+job-dsl:1.77
+mask-passwords:2.13
