@@ -22,3 +22,5 @@ pipeline-stage-step:2.3
 pipeline-stage-view:2.13
 plain-credentials:1.7
 role-strategy:latest
+sonar:2.13
+workflow-cps-global-lib:2.20
