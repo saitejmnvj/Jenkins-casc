@@ -14,7 +14,7 @@ jenkins:
   securityRealm:
     local:
       allowsSignup: false
-      user:
+      users:
       - id: ${JENKINS_USERNAME}
         password: ${JENKINS_PASS}
 unclassified: 
