@@ -29,7 +29,7 @@ unclassified:
               git:
                 remote: "https://github.com/jenkins-infra/pipeline-library.git"
   sonarglobalconfiguration:
-    buildWrapperEnable: true
+    buildWrapperEnabled: true
     installations:
       - name: "sonar"
         serverUrl: "https://sample.sonar.com"
