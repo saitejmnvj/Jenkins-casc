@@ -20,14 +20,14 @@ jenkins:
 unclassified: 
   location:
     url: ${JENKINS_URL}
-  globalLibraries:
-    libraries: 
-      - name: "library"
-        retriever:
-          modernSCM:
-            scm:
-              git:
-                remote: "https://github.com/jenkins-infra/pipeline-library.git"
+  # globalLibraries:
+  #   libraries: 
+  #     - name: "library"
+  #       retriever:
+  #         modernSCM:
+  #           scm:
+  #             git:
+  #               remote: "https://github.com/jenkins-infra/pipeline-library.git"
   sonarglobalconfiguration:
     buildWrapperEnabled: true
     installations:
