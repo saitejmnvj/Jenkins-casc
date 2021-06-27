@@ -3,13 +3,13 @@ jenkins:
   systemMessage: "Jenkins Powered By JCASC Automation"
   numExecutors: 3
   mode: NORMAL
-  globalNodeProperties:
-  - envVars: 
-    env:
-    - key: SONAR_HOST
-      value: "https://sample.sonar.com"
-    - key: KUBE_NODES
-      value: "three"  
+  # globalNodeProperties:
+  # - envVars: 
+  #   env:
+  #   - key: SONAR_HOST
+  #     value: "https://sample.sonar.com"
+  #   - key: KUBE_NODES
+  #     value: "three"  
 #Passing sample variables for testing
 #Unclassified to define plugin configuration
   securityRealm:
@@ -26,7 +26,7 @@ credentials:
               scope: GLOBAL
               id: "username"
               username: "some-user"
-              password: "${SOME_USER_PASSWORD}"
+              password: "${PASSWORD}"
               description: "Username/Password Credentials for some-user"        
 unclassified: 
   location:

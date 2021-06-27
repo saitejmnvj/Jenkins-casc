@@ -13,6 +13,10 @@ ENV JENKINS_USERNAME="random"
 
 ENV JENKINS_PASS="random"
 
+ENV PASSWORD="random"
+
+#All the env's need to be updated later
+
 COPY casc var/jenkins_home/ref
 
 #Pointing Plugin to the folder to casc yaml folders
