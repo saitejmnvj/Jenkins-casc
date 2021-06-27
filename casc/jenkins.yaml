@@ -23,11 +23,11 @@ credentials:
     domainCredentials:
       - credentials:
           - usernamePassword:
-          scope: GLOBAL
-          id: "username"
-          username: "some-user"
-          password: "${SOME_USER_PASSWORD}"
-          description: "Username/Password Credentials for some-user"        
+            scope: GLOBAL
+            id: "username"
+            username: "some-user"
+            password: "${SOME_USER_PASSWORD}"
+            description: "Username/Password Credentials for some-user"        
 unclassified: 
   location:
     url: ${JENKINS_URL}
