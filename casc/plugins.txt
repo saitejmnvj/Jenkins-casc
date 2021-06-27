@@ -3,11 +3,11 @@ authentication-tokens:1.4
 conditional-buildstep:1.4.1
 configuration-as-code:1.51
 credentials:2.5
-credentials-binding:1.23
+credentials-binding:1.24
 envinject:2.3.0
 envinject-api:1.7
 git:4.7.2
-git-client:3.2.1
+git-client:3.7.1
 git-server:1.9
 github:1.33.1
 github-api:1.114.2
@@ -23,7 +23,7 @@ maven-plugin:3.12
 parameterized-trigger:2.41
 pipeline-build-step:2.12
 pipeline-model-definition:1.8.5
-pipeline-stage-step:2.3
+pipeline-stage-step:2.5
 pipeline-stage-view:2.13
 plain-credentials:1.7
 role-strategy:latest
